@@ -6,3 +6,43 @@ Green: #00B172
 White: #FFF
 
 */
+
+.Logo {
+    width: 10%;
+}
+
+li {
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+header {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.one {
+    
+  background-image: url(/images/landing.jpg);
+  background-color: #282c34;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+
